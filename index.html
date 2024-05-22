@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-</head>
+
 <body>
 
     <header class="header">
@@ -16,37 +16,37 @@
             <a class="anclaLogo" href="#">
                 <i class="fas fa-film" aria-hidden="true"></i>
                 <span>CAC-Movies</span>
-
-            <ul class="cambioinlinea">
-              <li> <a href="">Tendencia</a></li>
-              <li> <a href="">Registrarse</a></li>
-              <li> <a href="">Inicio de sesion</a></li>
-           </ul>
-           <section class="secciontitulo"> 
-           <h1>Peliculas y Series ilimitadas<br> en un solo lugar</h1>
-           <h2>Disfruta donde quieras.<br> Cancela en cualquier momento</h2>
-           </section>
-
-        </nav>
+            </a>
+          
+            <ul class="listaNav">
+                <li class="listaItem"><a class="linkNav" href="#tendencias">Tendencias</a></li>
+                <li class="listaItem"><a class="linkNav" href="./pages/registrarse.html">Registrarse</a></li>
+                <li class="listaItem"><a class="linkNav iniciarSesion" href="./pages/iniciosesion.html">Iniciar Sesión</a></li>
+            </ul>
+           </nav>
     </header>
 
     
-        <main>
-    
+     <main id="main" class="main"> 
+                <section class="seccionprimaria">
+                <h1 class="tituloprincipal">Peliculas y Series ilimitadas<br> en un solo lugar</h1>
+                <h2 class="titulosecunadario">Disfruta donde quieras.<br> Cancela en cualquier momento</h2>
+                <a class="botonregistro" href="#"> Registrarse</a>
+                </section>
      
-            <section>
-               <h2>¿Que estas buscando?</h2>
-               <form>
-                   <input type="text" placeholder="Buscar">
-                   <input type="submit">
-               </form>
+              <section class="buscadorprincipal">
+               <h2 class="quebuscas" >¿Que estás buscando?</h2>
+               <form class="buscapeli">
+                <input class="inputBuscador" type="text" placeholder="Buscar..." id="buscar" name="buscar">
+                <input class="botonbuscar" type="submit" value="Buscar">
+            </form>
+                
             </section>
-         
-         
-       <section id="tendencias">
-        <h2>las tendencias de hoy</h2>
-         
-            <div>
+            <hr>
+            
+            <section id="tendencias" class="peliculasTendencia">
+                <h3 class="tituloSection">Las tendencias de hoy</h3>
+                <div class="peliculas" id="tendenciasContainer">
         <img src="assets/img/mario.jpg" alt="peli1" width="250" height="350" class="borderimage">
         <img src="assets/img/barbie.jpg" height="350" class="borderimage">
         <img src="assets/img/caracortada.jpg" alt="it" width="250" height="350" class="borderimage">
@@ -56,17 +56,14 @@
         <img src="assets/img/galaxiaguar.jpeg" alt="galaxiaguar" width="250" height="350" class="borderimage">
         <img src="assets/img/simios.jpg" alt="iroman2" width="250" height="350" class="borderimage">
         <img src="assets/img/matrix.jpg" alt="iroman2" width="250" height="350" class="borderimage">
-        
-        
-        
         </div>
-
-       </section>
-
-       <section class="Peliulas-aclamadas">
-        <h2>las mas aclamadas</h2>
-        <div class="galeria aclamadas">
-        
+        <button class="boton">Anterior</button>  
+        <button class="boton">Siguiente</button>
+    </section>
+    <hr>
+    <section class="piculasAclamadas">
+        <h3 class="tituloSection">Las más aclamadas</h3>
+        <div class="aclamadas" id="aclamadasContainer">
         <img src="assets/img/kunfupanda.webp" alt="Aclamadas" width="250" height="350" class="borderimage">
         <img src="assets/img/it.webp" alt="Aclamadas" width="250" height="350" class="borderimage">
         <img src="assets/img/aqueman.jfif" alt="Aclamadas" width="250" height="350" class="borderimage">
@@ -80,14 +77,15 @@
        </section>
 
     </main>
-    <footer>
-        <ul class="listaFooter">
-            <il class="item">Términos y condiciones</il>
-            <il class="item">Preguntas frecuentes</il>
-            <il class="item">Ayuda</il>
-            <il class="item" id="oscuro">Administrar película</il>
-        </ul>
-
+    <footer class="footer">
+        <nav class="navegacion">
+            <ul class="listaNav">
+                <li class="listaItem"><a class="linkNav" href="">Términos y condiciones</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Preguntas frecuentes</a></li>
+                <li class="listaItem"><a class="linkNav" href="">Ayuda</a></li>
+                <li class="listaItem"><a class="linkNav administradorPeliculas" href="">Administrador Peliculas</a></li>
+            </ul>
+        </nav>
     </footer>
 
 
