@@ -266,8 +266,7 @@ width: 100%;
     margin: 6rem auto;
     padding: 1rem;
     border-radius: 1rem;
-    height: 80%;
-    width: 30%;
+    width: 60vh;
 }
 .formulario fieldset {
     border: none; 
@@ -281,14 +280,9 @@ width: 100%;
     margin-bottom: 2rem;
     
 }
-.formulario .label-legend {
-    font-size: 1rem;
-    font-weight: 700;
-    margin: 1rem;
-    color: blue; 
-}
+
 .campo {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 .campo label {
     color: #F0F0F0;
