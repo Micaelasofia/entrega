@@ -88,7 +88,7 @@ border-radius: 5px;
 }
 }
 #linkNav{
-    background-color: gray;
+    background-color: blue;
     color: white;
     padding: 0.5rem 1rem;
     margin: 20px 10 px;font-size: 1.5rem;
@@ -126,7 +126,7 @@ border-radius: 5px;
             margin-top: 1rem;
 }
 .botonbuscar{
-    background-color: gray;
+    background-color: blue;
                 display: inline-block;
                 color:#ffffff;
                 height: 50px;
@@ -235,7 +235,7 @@ border-radius: 5px;
 }
 
 .boton{
-    background-color: gray;
+    background-color: blue;
     display: inline-block;
     color:#ffffff;
     height: 70px;
@@ -251,6 +251,56 @@ border-radius: 5px;
 
 #main{
     background-color: black;
+}
+.fondo{
+background-image: url(diseno-de-cine-vintage-sin-costuras-fondo-de-pelicula-retro-ilustracion-vectorial-2gfn0ff.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+height: 100vh;      
+width: 100%;
+}
+.formulario {
+    background-color: gray;
+    width: min( 50rem, 60% ); 
+    margin: 6rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    height: 80%;
+    width: 30%;
+}
+.formulario fieldset {
+    border: none; 
+}
+.formulario legend {
+    text-align: center;
+    font-size: 2.2rem;
+    color: blue; 
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    
+}
+.formulario .label-legend {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem;
+    color: blue; 
+}
+.campo {
+    margin-bottom: 1rem;
+}
+.campo label {
+    color: #F0F0F0;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+.input-text {
+    width: 90%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 3rem;
 }
 
 .footer{
