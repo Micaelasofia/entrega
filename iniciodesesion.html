@@ -14,52 +14,34 @@
     
 </head>
 <body class="contenedor fondo"> 
-<header class="header">
-  <nav class="navegacion">
-      <a class="animate__animated animate__bounce">
-          <i class="fas fa-film" aria-hidden="true"></i>
-          <img class="logo" src="cintamovie.png">CAC-MOVIES
-      </a>
-    
-      <ul class="listaNav">
-          <li class="listaItem"><a class="linkNav" href="index.html">Tendencias</a></li>
-          <li class="listaItem"><a class="linkNav" href="registro.html">Registrarse</a></li>
-          <li class="listaItem"><a class="linkNav iniciarSesion" href="iniciodesesion.html">Iniciar Sesión</a></li>
-          <li class="listaItem"><a class="linkNav api" href="api.html">API</a></li>
-          
-      </ul>
-     </nav>
+  <header class="header">
+    <nav class="navegacion">
+        <a class="animate__animated animate__bounce">
+            <i class="fas fa-film" aria-hidden="true"></i>
+            <img class="logo" src="cintamovie.png">CAC-MOVIES
+        </a>
+      
+        <ul class="listaNav">
+            <li class="listaItem"><a class="linkNav" href="index.html">Tendencias</a></li>
+            <li class="listaItem"><a class="linkNav" href="registro.html">Registrarse</a></li>
+            <li class="listaItem"><a class="linkNav iniciarSesion" href="iniciodesesion.html">Iniciar Sesión</a></li>
+            <li class="listaItem"><a class="linkNav api" href="api.html">API</a></li>
+
+        </ul>
+       </nav>
 </header>
 
-<form class="formulario" action="" method="get">
-  <fieldset>  
-      <legend>Iniciar Sesión</legend>      
-    <div class="campo">
-      <label for="correo" class="form-label">Correo</label>
-      <input type="email" class=" input-text" id="correo"  name="correo" required
-      placeholder="correo"></input>
-    </div>
-    
-    <div class="campo">
-      <label for="password" class="form-label">Contraseña</label>
-      <input type="password" class="input-text" id="password" name="password" required
-      placeholder="Contraseña">
-    </div>
-
-    </legend>
-
-    <div class="alinear-derecha flex">
-      <button type="submit" class="boton" name="aplicar" >Enviar</button>
-    
-    </div>
-    
-    
-    </fieldset>
-</form>
-
-    
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<div class="formulario" id="formulario">
  
+  <form action="#" id="loginForm">
+    <input type="email" class="input" id="email" placeholder="Correo Electrónico">
+    
+    <input type="password" class="input" id="password" placeholder="Contraseña">
+    
+    <button type="submit" class="boton">Ingresar</button>
+  </form>
+  <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
 </body>
 </html>

@@ -33,46 +33,38 @@
         </header>
            
             <form class="formulario" action="">
-            <fieldset>
-                <legend>Registro</legend>
-        
+              
             <div class="campo ">
                 <label for="nombre" class="form-label"></label>
-                <input type="text" class="input-text" name="nombre"  autocomplete="off"
-                required placeholder="Tu Nombre">
+                <input type="text" class="input" name="nombre"  required placeholder="Tu Nombre">
               </div>
               <div class="campo">
-                <input type="text" class="input-text" name="apellido" autocomplete="off"
-                 required placeholder="Tu Apellido">
+                <input type="text" class="input" name="apellido"  required placeholder="Tu Apellido">
               </div>
          
               <div class="campo">
-                <input type="email" class=" input-text" id="correo"  name="correo" required
+                <input type="email" class="input" id="correo"  name="correo" required
                 placeholder="Tu Correo"></input>
               </div>
               <div class="campo">
-                <input type="password" class=" input-text" name="password" required 
+                <input type="password" class="input" name="password" required 
                 placeholder="Contraseña"></input>
               </div>
 
               <div class="campo">
-                <select class="input-text" id="pais" name="pais">
-                    <option class=" input-text"  selected disabled >-Seleccione País-</option>
-                    <option class=" input-text"  value="arg">Argentina</option>
+                <select class="input" id="pais" name="pais">
+                    <option class=" input"  selected disabled >-Seleccione País-</option>
+                    <option class=" input"  value="arg">Argentina</option>
                     <option value="bra">Brasil</option>
                     <option value="uru">Uruguay</option>
                     <option value="par">Paraguay</option>
                     <option value="españa">españa</option>
                   </select>
               </div>
-
-               <div class="alinear-derecha flex">
                 <button type= "submit" class="boton" name="guardar" >Registrarse</button>
               
               </div>
               
-              
-              </fieldset>
             </form>
         </section>
     </body>

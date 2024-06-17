@@ -5,6 +5,8 @@
 body{
     font-family: "Nunito", sans-serif;
     color: blanchedalmond;
+
+
 }
 
 .header{
@@ -14,7 +16,7 @@ background-color: gray;
     position:sticky;
     top: 0;
     z-index:10;
-
+   
 }
 
 
@@ -280,43 +282,33 @@ background-position: center center;
 height: 100vh;      
 width: 100%;
 }
+
+
 .formulario {
-    background-color: gray;
-    width: min( 50rem, 60% ); 
-    margin: 6rem auto;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    width: 80vh;
-}
-.formulario fieldset {
-    border: none; 
-}
-.formulario legend {
-    text-align: center;
-    font-size: 2.2rem;
-    color: blue; 
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 2rem;
+        background-color: gray;
+        text-align: center;
+         width: 40vw;
+         margin-top: 5%;
+         padding: 2vw;
+         height: auto;
+         margin-left: 25vw;
+        
+   
+        
     
 }
-
-.campo {
-    margin-bottom: 0.5rem;
-}
-.campo label {
-    color: #F0F0F0;
-    font-weight: bold;
-    margin-bottom: .5rem;
-    display: block;
-}
-.input-text {
-    width: 90%;
+.input{
+    width: 70%;
     border: none;
     padding: 1.5rem;
     border-radius: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    
 }
 
+    
+   
 .footer{
     background-color: grey;
     color: white;
