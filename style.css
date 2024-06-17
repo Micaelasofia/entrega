@@ -69,8 +69,22 @@ border-radius: 5px;
 
 }
 .relleno{
-    background-color: #000000;
+    background-color: black;
 }
+#personajes {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+#api{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
 .seccionprimaria {
     background:linear-gradient(to right top, #0000008a, #0000008a), url(fondobanner.jpg);
     background-size: cover;
@@ -271,8 +285,8 @@ width: 100%;
     width: min( 50rem, 60% ); 
     margin: 6rem auto;
     padding: 1rem;
-    border-radius: 1rem;
-    width: 60vh;
+    border-radius: 0.5rem;
+    width: 80vh;
 }
 .formulario fieldset {
     border: none; 
@@ -302,8 +316,6 @@ width: 100%;
     padding: 1.5rem;
     border-radius: 3rem;
 }
-
-
 
 .footer{
     background-color: grey;

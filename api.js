@@ -14,9 +14,8 @@ fetch("https://rickandmortyapi.com/api/character")
 
         contenedorCreado.innerHTML = `
             <h4>${elementos.name}</h4>
-            <img src="${elementos.image}">
-            
-        `;
+           <img style="width:200px; border-radius:10px;" src="${elementos.image}">                
+            `;
 
 
        contenedorPersonajes.append(contenedorCreado)

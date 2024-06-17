@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  
+  
     
 </head>
 <body class="contenedor fondo"> 
@@ -28,38 +30,36 @@
       </ul>
      </nav>
 </header>
-<section class="" >
-      
-        <form class="formulario" action="">
-            <fieldset>  
-                <legend>Iniciar Sesión</legend>      
-              <div class="campo">
-                <label for="correo" class="form-label">Correo</label>
-                <input type="email" class=" input-text" id="correo"  name="correo" 
-                placeholder="Tu Correo"></input>
-              </div>
-              
-              <div class="campo">
-                <label for="password" class="form-label">Contraseña</label>
-                <input type="password" class="input-text" id="password"name="password" autocomplete="off"
-                 placeholder="Contraseña">
-              </div>
-     
-              </legend>
 
-              <div class="alinear-derecha flex">
-                <button type="submit" class="boton" name="aplicar" >Enviar</button>
-              
-              </div>
-              
-              
-              </fieldset>
-        </form>
-    </section>
-    <footer>
-      
-    </footer>
+<form class="formulario" action="" method="get">
+  <fieldset>  
+      <legend>Iniciar Sesión</legend>      
+    <div class="campo">
+      <label for="correo" class="form-label">Correo</label>
+      <input type="email" class=" input-text" id="correo"  name="correo" 
+      placeholder="Tu Correo"></input>
+    </div>
     
+    <div class="campo">
+      <label for="password" class="form-label">Contraseña</label>
+      <input type="password" class="input-text" id="password"name="password" autocomplete="off"
+       placeholder="Contraseña">
+    </div>
+
+    </legend>
+
+    <div class="alinear-derecha flex">
+      <button type="submit" class="boton" name="aplicar" >Enviar</button>
+    
+    </div>
+    
+    
+    </fieldset>
+</form>
+
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
  
 </body>
 </html>
