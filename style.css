@@ -61,10 +61,16 @@ background-color: black;
 color: white;
 border-radius: 5px;
 
-  }
-  
-.main{
+}
+.linkNav.api{
+    background-color: black;
+color: white;
+border-radius: 5px;
 
+}
+.relleno{
+    background-color: #000000;
+}
 .seccionprimaria {
     background:linear-gradient(to right top, #0000008a, #0000008a), url(fondobanner.jpg);
     background-size: cover;
@@ -86,7 +92,7 @@ border-radius: 5px;
     font-weight: 400;
     margin-bottom: 1rem;
 }
-}
+
 #linkNav{
     background-color: blue;
     color: white;
@@ -296,6 +302,8 @@ width: 100%;
     padding: 1.5rem;
     border-radius: 3rem;
 }
+
+
 
 .footer{
     background-color: grey;
