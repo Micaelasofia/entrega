@@ -6,9 +6,7 @@ body{
     font-family: "Nunito", sans-serif;
     color: blanchedalmond;
 
-
 }
-
 .header{
 background-color: gray;
     color:#ffffff;
@@ -88,7 +86,7 @@ border-radius: 5px;
 
 
 .seccionprimaria {
-    background:linear-gradient(to right top, #0000008a, #0000008a), url(fondobanner.jpg);
+    background:linear-gradient(to right top, #0000008a, #0000008a), url(cinema1_03.jpg);
     background-size: cover;
         background-position: center;
         height: 90vh;
@@ -307,7 +305,14 @@ width: 100%;
     
 }
 
-    
+.flechArriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    cursor: pointer;
+   
+}   
    
 .footer{
     background-color: grey;
