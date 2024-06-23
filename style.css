@@ -16,8 +16,6 @@ background-color: gray;
     z-index:10;
    
 }
-
-
 .navegacion{
 display: flex;
 justify-content: space-between;
@@ -50,43 +48,57 @@ color:#ffffff;
 font-weight: 700;
 font-size: 1.1rem;
 padding: 0.5rem 1rem;
-transition: transform 0.3s, box-shadow 0.3s;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 border-radius: 5px;
+
 }
-                
-            
+
 .linkNav.iniciarSesion{
 background-color: black;
 color: white;
 border-radius: 5px;
 
 }
+
 .linkNav.api{
     background-color: black;
 color: white;
 border-radius: 5px;
-
 }
+
 .relleno{
     background-image: url(R.jfif);
 }
 #personajes {
-    width: 95%;
+    width: 95vw;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1%;
+    padding: 2%;
 }
+   
 #api{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
+hr {
+    border: 1px solid gray;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    height: 15px;
+    background-color: gray;
+    
+}
 
 .seccionprimaria {
-    background:linear-gradient(to right top, #0000008a, #0000008a), url(cinema1_03.jpg);
+    background:linear-gradient(to right top, #0000008a, #0000008a), url(popcorn-background-cinema-concept.jpg);
     background-size: cover;
         background-position: center;
         height: 90vh;
@@ -108,16 +120,19 @@ border-radius: 5px;
 }
 
 #linkNav{
-    background-color: blue;
+    background-color: black;
     color: white;
     padding: 0.5rem 1rem;
     margin: 20px 10 px;font-size: 1.5rem;
     font-weight: 700;
     border-radius: 5px;
     text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+    &:hover {
+        transform: scale(0.95);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    }
 }
-   
-    
 
 .tituloSection{
     font-family: "nunito";
@@ -146,7 +161,7 @@ border-radius: 5px;
             margin-top: 1rem;
 }
 .botonbuscar{
-    background-color: blue;
+    background-color: black;
                 display: inline-block;
                 color:#ffffff;
                 height: 50px;
@@ -176,11 +191,13 @@ border-radius: 5px;
     margin: 0 auto;
     text-align: center;
     margin-top: 10px;
+   
 }
     .tituloSection{
         font-size: 2.5rem;
         font-weight: 700;
         margin-bottom: 40px;
+    
     }
 
 .peliculas{
@@ -213,11 +230,11 @@ border-radius: 5px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0%;
+    padding: 3%;
 }
 ::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
+    width: 15px;
+    height: 15px;
    
 }
     ::-webkit-scrollbar-thumb{
@@ -255,7 +272,7 @@ border-radius: 5px;
 }
 
 .boton{
-    background-color: blue;
+    background-color: black;
     display: inline-block;
     color:#ffffff;
     height: 70px;
@@ -268,6 +285,20 @@ border-radius: 5px;
     text-align: center;
     
 }
+.btn{
+    background-color: black;
+    display: inline-block;
+    color:#ffffff;
+    height: 70px;
+    margin: 8vh;
+    padding: 3vh;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: 2px solid white;
+    width: 15%;
+    
+   }
 
 #main{
     background-color: black;
@@ -295,6 +326,7 @@ width: 100%;
         
     
 }
+
 .input{
     width: 70%;
     border: none;
