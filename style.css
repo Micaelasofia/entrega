@@ -27,12 +27,6 @@ padding: 1.5rem 0;
 
 
 
-    .logo {
-        width: 20px;
-        height: 15px;
-    }
-       
-    
  .listaNav{
      list-style: none;
      display: flex;
@@ -96,6 +90,12 @@ hr {
     background-color: gray;
     
 }
+
+.logo {
+    width: 25px;
+    height: 20px;
+}
+   
 
 .seccionprimaria {
     background:linear-gradient(to right top, #0000008a, #0000008a), url(popcorn-background-cinema-concept.jpg);
